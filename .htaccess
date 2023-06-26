@@ -1,0 +1,9 @@
+RewriteEngine On
+
+AddDefaultCharset utf-8
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^home/(.*)$ home.php?user=$1
+RewriteRule ^habbo-imaging/avatarimage(|/)$ ./habbo-imaging/avatar.php
+RewriteRule ^habbo-imaging/badge/(.*) ./habbo-imaging/badge.php?badge=$1
+RewriteRule ^habbo-imaging/head/(|/)$ ./habbo-imaging/user-badge/head.php
