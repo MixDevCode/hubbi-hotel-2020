@@ -53,8 +53,8 @@
 
 
 	$config['facebookLogin'] = false; //Enable the Facebook login (true) or disable it (false)
-	$config['facebookAPPID'] = '2458894301089540';
-	$config['facebookAPPSecret'] = 'b306433af542a5c0094649b6c7fd0d94';
+	$config['facebookAPPID'] = '';
+	$config['facebookAPPSecret'] = '';
 	
 	/* Social settings */
 	$config['facebook'] = 'HubbiComunity'; /*  Colocar colo el codigo de la pagina ejemplo facebook.com/lo que va aqui se pone  */
